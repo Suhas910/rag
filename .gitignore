@@ -1,0 +1,49 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Type-checker and linter caches
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE/editor settings
+.vscode/*
+!.vscode/settings.json
+.idea/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Local database/vector-store data
+qdrant_storage/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
